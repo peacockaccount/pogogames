@@ -1,0 +1,355 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="msvalidate.01" content="EF0D113A83DA6960716D3F3EB33D127B" />
+  <meta name="google-site-verification" content="2w6vC5QvIZ5HLbtPZNuTyHBpehF5mkviz_jlinYTNyg" />
+  <meta name="description" content="Learn how to login to your Pogo Games account, access your favorite online games, and fix common sign-in issues easily."/>
+  <meta name="keywords" content="Pogo login, Pogo Games login, Pogo sign in, login my Pogo account, EA Pogo login"/>
+  <title>Pogo Games Login Account | Step-by-Step Sign In Guide</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Zendesk Widget -->
+  <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=7668c976-0fb7-47ee-8740-3e9115bdb10f"> </script>
+
+  <style>
+    :root {
+      --primary: #f97316;
+      --primary-light: #ffedd5;
+      --secondary: #1f2937;
+      --light: #6b7280;
+      --lighter: #f9fafb;
+      --white: #ffffff;
+      --error: #dc2626;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--lighter);
+      color: var(--secondary);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary) 0%, #fb923c 100%);
+      color: var(--white);
+      text-align: center;
+      padding: 60px 20px 80px;
+      border-radius: 0 0 30px 30px;
+    }
+
+    header h1 {
+      font-size: 2.6rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    .login-form-container {
+      background: var(--white);
+      padding: 40px;
+      border-radius: 12px;
+      max-width: 500px;
+      margin: -50px auto 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    }
+
+    .login-form-container h2 {
+      text-align: center;
+      color: var(--primary);
+      margin-bottom: 25px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 14px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    .login-btn {
+      width: 100%;
+      padding: 14px;
+      background-color: var(--primary);
+      color: var(--white);
+      border: none;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .login-btn:hover {
+      background-color: #ea580c;
+    }
+
+    .error-message {
+      display: none;
+      background-color: #fee2e2;
+      color: var(--error);
+      padding: 15px;
+      border-radius: 8px;
+      margin: 20px 0;
+      border-left: 4px solid var(--error);
+      font-weight: 500;
+      text-align: center;
+    }
+
+    .support-section {
+      text-align: center;
+      margin-top: 25px;
+      display: none;
+    }
+
+    .support-btn {
+      background: none;
+      border: none;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: underline;
+      font-size: 1rem;
+      padding: 10px 15px;
+      border-radius: 6px;
+      color: var(--primary);
+      transition: all 0.3s ease;
+    }
+
+    .support-btn:hover {
+      background-color: var(--primary-light);
+    }
+
+    .content-section {
+      margin: 60px 0;
+    }
+
+    .content-card {
+      background: var(--white);
+      padding: 30px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    }
+
+    .content-card h2 {
+      color: var(--primary);
+      margin-bottom: 20px;
+    }
+
+    .step {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+
+    .step-number {
+      background-color: var(--primary);
+      color: var(--white);
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 15px;
+      font-weight: bold;
+    }
+
+    .step-content h3 {
+      margin-bottom: 5px;
+      font-size: 1.2rem;
+    }
+
+    .note {
+      background-color: var(--primary-light);
+      padding: 15px;
+      border-left: 4px solid var(--primary);
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: var(--light);
+      font-size: 0.9rem;
+      border-top: 1px solid var(--lighter);
+      margin-top: 60px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .login-form-container {
+        padding: 30px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pogo Games Login</h1>
+    <p class="subtitle">Sign in to your Pogo Games account to play, earn badges, and enjoy your favorite EA games online.</p>
+  </header>
+
+  <div class="container">
+    <div class="login-form-container">
+      <h2>Login to Your Account</h2>
+      <form id="pogoLoginForm">
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Enter your email" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter your password" required />
+        </div>
+        <div class="error-message" id="errorMessage">
+          Login failed. Please verify your credentials or contact Pogo Support.
+        </div>
+        <button type="submit" class="login-btn" id="submitBtn">Login Now</button>
+      </form>
+
+      <div class="support-section" id="supportSection">
+        <button class="support-btn" id="supportBtn">Contact Support</button>
+      </div>
+    </div>
+
+    <div class="content-section">
+      <div class="content-card">
+        <h2>Understanding Pogo Games Login</h2>
+        <p>
+          Pogo is an online gaming platform by EA that offers hundreds of fun casual games including card, puzzle, and board games. 
+          Your Pogo Games login account allows you to play online, track scores, earn badges, and connect with other players in the community. 
+          Here’s how you can log in to your Pogo account easily.
+        </p>
+
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Visit the Official Pogo Website</h3>
+            <p>Go to <strong>www.pogo.com</strong> and click on the “Sign In” button located at the top-right corner of the page.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Enter Your EA Login Credentials</h3>
+            <p>Type in your registered EA email address and password. If your account is linked to an EA ID, you can use those credentials as well.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Access Your Pogo Dashboard</h3>
+            <p>Once logged in, you can access your Pogo profile, view your game progress, and start playing any game you love instantly.</p>
+          </div>
+        </div>
+
+        <div class="note">
+          Tip: You can also log in to Pogo using your EA account for faster access and better security.
+        </div>
+      </div>
+
+      <div class="content-card">
+        <h2>Why You Need a Pogo Games Account</h2>
+        <p>Creating and logging in to a Pogo Games account provides multiple benefits for gamers:</p>
+        <ul>
+          <li><strong>Access to Hundreds of Games:</strong> Enjoy classic and modern Pogo titles across different genres.</li>
+          <li><strong>Badge and Reward System:</strong> Earn badges and tokens by achieving milestones in various games.</li>
+          <li><strong>Friends & Chat:</strong> Connect with friends, invite them to play, and chat while gaming.</li>
+          <li><strong>Cloud Save:</strong> Your game data and progress are stored safely and can be accessed anytime.</li>
+          <li><strong>Ad-Free Experience (for Club Pogo):</strong> Upgrade to Club Pogo to enjoy ad-free gaming with extra benefits.</li>
+        </ul>
+        <div class="note">
+          Note: Your Pogo account is part of EA’s network, so your EA credentials work seamlessly across both platforms.
+        </div>
+      </div>
+
+      <div class="content-card">
+        <h2>Troubleshooting Login Issues</h2>
+        <p>If you can’t <a href="https://app-pogo.com/">Pogo Games login</a>, here are some common reasons and fixes:</p>
+        <ul>
+          <li><strong>Incorrect Password:</strong> Reset it by clicking “Forgot Password?” on the Pogo sign-in page.</li>
+          <li><strong>EA Server Downtime:</strong> Wait for EA’s systems to be back online if there’s scheduled maintenance.</li>
+          <li><strong>Browser Cache:</strong> Clear cookies and cache, then try again.</li>
+          <li><strong>Account Locked:</strong> Multiple failed attempts may temporarily lock your account. Wait a few minutes before retrying.</li>
+          <li><strong>Inactive Account:</strong> If you haven’t used Pogo in a while, log in to your EA account to reactivate it.</li>
+        </ul>
+        <div class="note">
+          If the issue persists, reach out to Pogo or EA Help for personalized assistance.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Pogo Games. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Hide Zendesk widget initially
+    zE(function () {
+      zE.hide();
+    });
+
+    // Simulate login error + show support
+    document.getElementById('pogoLoginForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      document.getElementById('errorMessage').style.display = 'block';
+      document.getElementById('submitBtn').style.display = 'none';
+      document.getElementById('supportSection').style.display = 'block';
+
+      document.getElementById('errorMessage').scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+      });
+    });
+
+    // Open Zendesk live chat
+    document.getElementById('supportBtn').addEventListener('click', function() {
+      zE.activate({ hideOnClose: true });
+      zE('webWidget', 'open');
+    });
+  </script>
+
+</body>
+</html>
